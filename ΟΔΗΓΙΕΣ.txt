@@ -29,7 +29,7 @@ MD, CSV, LOG, JSON, XML, HTML, XLSX, XLSM, PPTX.
 ΑΥΤΟΝΟΜΟ EXE
 Αν θέλεις να δημιουργήσεις .exe που ανοίγει χωρίς εγκατάσταση Python,
 τρέξε το «Δημιουργία_EXE.bat» σε υπολογιστή Windows με Python.
-Το αποτέλεσμα θα είναι στο dist\Anazitisi_Arxeion.exe.
+Το αποτέλεσμα θα είναι στο dist\Search_PDF_Files.exe.
 Αν το Windows Defender εμφανίσει προειδοποίηση για άγνωστη εφαρμογή,
 επίλεξε «Περισσότερες πληροφορίες» και έλεγξε ότι εκτελείς το δικό σου build.
 

@@ -27,13 +27,13 @@ jobs:
       - name: Build executable
         run: >-
           python -m PyInstaller --noconfirm --clean --onefile --windowed
-          --name Anazitisi_Arxeion --collect-all fitz --collect-all pymupdf
+          --name Search_PDF_Files --collect-all fitz --collect-all pymupdf
           --collect-all striprtf search_files.py
 
       - name: Upload executable
         uses: actions/upload-artifact@v4
         with:
           name: Search_PDF_Files
-          path: dist/Anazitisi_Arxeion.exe
+          path: dist/Search_PDF_Files.exe
           if-no-files-found: error
           retention-days: 14

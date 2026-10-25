@@ -15,8 +15,8 @@ if not exist ".venv\Scripts\python.exe" (
 )
 ".venv\Scripts\python.exe" -m pip install --disable-pip-version-check --upgrade -r requirements.txt pyinstaller
 if errorlevel 1 (pause & exit /b 1)
-".venv\Scripts\python.exe" -m PyInstaller --noconfirm --clean --onefile --windowed --name "Anazitisi_Arxeion" --collect-all fitz --collect-all pymupdf --collect-all striprtf "search_files.py"
+".venv\Scripts\python.exe" -m PyInstaller --noconfirm --clean --onefile --windowed --name "Search_PDF_Files" --collect-all fitz --collect-all pymupdf --collect-all striprtf "search_files.py"
 if errorlevel 1 (pause & exit /b 1)
 echo.
-echo Το εκτελέσιμο βρίσκεται στον φάκελο dist\Anazitisi_Arxeion.exe
+echo Το εκτελέσιμο βρίσκεται στον φάκελο dist\Search_PDF_Files.exe
 pause
