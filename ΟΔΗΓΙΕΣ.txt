@@ -39,3 +39,8 @@ Actions και επίλεξε «Build Windows executable» → «Run workflow».
 Μπορείς επίσης να ξεκινήσεις build κάνοντας push αλλαγές στο repository.
 Όταν ολοκληρωθεί, άνοιξε το συγκεκριμένο run και κατέβασε το artifact
 «Search_PDF_Files». Το artifact διατηρείται για 14 ημέρες.
+
+ΔΗΜΟΣΙΑ ΛΗΨΗ ΧΩΡΙΣ ΣΥΝΔΕΣΗ
+Για μόνιμη δημόσια λήψη, δημιουργείται GitHub Release όταν κάνεις push
+version tag, π.χ. v1.0.0. Το Search_PDF_Files.exe επισυνάπτεται στο Release
+και μπορεί να κατέβει χωρίς σύνδεση στο GitHub.
